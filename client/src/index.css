@@ -1,0 +1,22 @@
+.w-md-editor-toolbar button {
+    color: #f9fafb !important;
+    padding: 6px 10px !important;
+    transition: all 0.2s;
+    cursor: pointer;
+} 
+
+.w-md-editor-toolbar button.copy-code-button {
+    display: none !important;
+}
+  
+
+.wmde-markdown .code-block-wrapper .code-block-copy-btn,
+.wmde-markdown .copied,
+.wmde-markdown [data-code-type="code-block"] button {
+    display: none !important;
+}
+          
+
+.wmde-markdown .anchor {
+    display: none !important;
+}
